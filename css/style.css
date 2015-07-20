@@ -465,11 +465,18 @@ html{
   display: inline-block;
   margin-left: 1.563rem;
 }
-.topnavigation> .content> .links> .active{
+.top-navigation> .content> .links> .active{
   color: #4c5058;
   font-weight: 500;
 }
 .top-navigation> .content> .links> li:hover {
   cursor: pointer;
   color: #333333;
+}
+.introduction{
+  background-image: url('../images/first-background.jpg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45.938rem;
 }
